@@ -7,6 +7,8 @@ Pod::Spec.new do |s|
   s.version      = package['version']
   s.summary      = "React Native Date Picker component for Android and iOS"
 
+  s.authors      = { "stephanoparaskeva" => "stephanokparaskeva@gmail.com" }
+  s.homepage     = "https://github.com/stephanoparaskeva/datepicker"
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/stephanoparaskeva/datepicker.git" }
