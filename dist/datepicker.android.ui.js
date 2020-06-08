@@ -39,4 +39,3 @@ const styles = react_native_1.StyleSheet.create({
     picker: { width: 310, height: 180 },
 });
 exports.default = DatePickerAndroid;
-//# sourceMappingURL=datepicker.android.ui.js.map

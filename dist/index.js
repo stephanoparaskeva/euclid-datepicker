@@ -11,4 +11,3 @@ const DatePicker = react_native_1.Platform.select({
     ios: datepicker_ios_ui_1.default,
 });
 exports.default = DatePicker;
-//# sourceMappingURL=index.js.map
