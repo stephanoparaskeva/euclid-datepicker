@@ -1,5 +1,5 @@
 // @ts-ignore
-import React, { useEffect, useRef } from 'react';
+import * as React from 'react';
 // @ts-ignore
 import { StyleSheet, requireNativeComponent } from 'react-native';
 import { DatePickerProps } from './datepicker.type';
@@ -18,9 +18,9 @@ const DatePickerIOS = ({
   textColor,
   onDateChange,
 }: DatePickerProps) => {
-  const picker = useRef<any>(null);
+  const picker = React.useRef<any>(null);
 
-  useEffect(() => {
+  React.useEffect(() => {
     if (date) {
       const propsTimeStamp = date.getTime();
 
