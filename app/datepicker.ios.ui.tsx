@@ -2,7 +2,7 @@
 import * as React from 'react';
 // @ts-ignore
 import { StyleSheet, requireNativeComponent } from 'react-native';
-import { DatePickerProps } from './datepicker.type';
+import { DatePickerProps } from '.';
 
 const RCTDatePickerIOS = requireNativeComponent<any>('RNDatePicker');
 
