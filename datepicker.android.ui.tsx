@@ -2,11 +2,7 @@ import React from 'react';
 import { StyleSheet, requireNativeComponent } from 'react-native';
 import { DatePickerProps } from './datepicker.type';
 
-const NativeDatePicker = requireNativeComponent(
-  `DatePickerManager`,
-  DatePickerAndroid,
-  { nativeOnly: { onChange: true } }
-);
+const NativeDatePicker = requireNativeComponent<any>(`DatePickerManager`);
 
 const DatePickerAndroid = ({
   onDateChange,
