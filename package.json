@@ -2,11 +2,14 @@
   "name": "datepicker",
   "version": "0.0.1",
   "main": "index.ts",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:stephanoparaskeva/datepicker.git"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-native": "^0.62.2"
+  }
 }
