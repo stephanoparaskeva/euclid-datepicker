@@ -1,6 +1,6 @@
 {
   "name": "euclid-datepicker",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scripts": {
     "compile": "rm -rf ./lib && tsc",
     "build": "babel lib/ -d dist/"
