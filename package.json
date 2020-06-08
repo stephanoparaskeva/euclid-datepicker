@@ -1,15 +1,19 @@
 {
   "name": "datepicker",
   "version": "0.0.1",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:stephanoparaskeva/datepicker.git"
   },
   "main": "dist/index.js",
   "dependencies": {},
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.62.2"
+    "react": "^16.13.1"
   }
 }
