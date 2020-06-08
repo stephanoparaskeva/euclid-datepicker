@@ -1,14 +1,18 @@
 {
   "name": "euclid-datepicker",
-  "version": "0.0.2",
-  "scripts": {},
+  "version": "0.0.4",
+  "scripts": {
+    "build": "npx babel compiled dist/euclid-datepicker.production.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:stephanoparaskeva/datepicker.git"
+    "url": "git@github.com:stephanoparaskeva/datepicker.git",
   },
   "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
     "metro-react-native-babel-preset": "^0.59.0"
   },
   "peerDependencies": {
