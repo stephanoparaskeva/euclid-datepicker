@@ -1,9 +1,7 @@
 {
-  "name": "datepicker",
+  "name": "euclid-datepicker",
   "version": "0.0.1",
-  "scripts": {
-    "build": "webpack"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:stephanoparaskeva/datepicker.git"
